@@ -78,13 +78,11 @@
 \addtolength{\oddevenshift}{-\evenoffset}
 \addtolength{\oddoffset}{-\oddevenshift}
 \addtolength{\evenoffset}{\oddevenshift}
-\geometry{compat2,
-	  \cardpapermode,
+\geometry{\cardpapermode,
           \cardpaper,
           top=\topoffset,
           left=\oddoffset,
           right=\evenoffset,
-          twosideshift=\oddevenshift,
           bottom=0.0in,
           noheadfoot}
 \ifthenelse{\boolean{flashcards@dvips}}{\geometry{dvips}}{}
